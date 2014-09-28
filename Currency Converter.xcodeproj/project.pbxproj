@@ -14,6 +14,12 @@
 		210C80BF19D7FB360090A19A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210C80BE19D7FB360090A19A /* Images.xcassets */; };
 		210C80C219D7FB360090A19A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 210C80C019D7FB360090A19A /* LaunchScreen.xib */; };
 		210C80CE19D7FB360090A19A /* Currency_ConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 210C80CD19D7FB360090A19A /* Currency_ConverterTests.m */; };
+		210C80D919D7FEAB0090A19A /* CurrencyConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 210C80D819D7FEAB0090A19A /* CurrencyConverter.m */; };
+		210C80DA19D7FEAB0090A19A /* CurrencyConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 210C80D819D7FEAB0090A19A /* CurrencyConverter.m */; };
+		210C80DE19D7FF590090A19A /* MockRatesRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 210C80DD19D7FF590090A19A /* MockRatesRepository.m */; };
+		210C80DF19D7FF590090A19A /* MockRatesRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 210C80DD19D7FF590090A19A /* MockRatesRepository.m */; };
+		210C80E219D801AD0090A19A /* Currency.m in Sources */ = {isa = PBXBuildFile; fileRef = 210C80E119D801AD0090A19A /* Currency.m */; };
+		210C80E319D801AD0090A19A /* Currency.m in Sources */ = {isa = PBXBuildFile; fileRef = 210C80E119D801AD0090A19A /* Currency.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,13 @@
 		210C80C719D7FB360090A19A /* Currency ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Currency ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		210C80CC19D7FB360090A19A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		210C80CD19D7FB360090A19A /* Currency_ConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Currency_ConverterTests.m; sourceTree = "<group>"; };
+		210C80D719D7FEAB0090A19A /* CurrencyConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyConverter.h; sourceTree = "<group>"; };
+		210C80D819D7FEAB0090A19A /* CurrencyConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyConverter.m; sourceTree = "<group>"; };
+		210C80DB19D7FF170090A19A /* RatesRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatesRepository.h; sourceTree = "<group>"; };
+		210C80DC19D7FF590090A19A /* MockRatesRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockRatesRepository.h; sourceTree = "<group>"; };
+		210C80DD19D7FF590090A19A /* MockRatesRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockRatesRepository.m; sourceTree = "<group>"; };
+		210C80E019D801AD0090A19A /* Currency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Currency.h; sourceTree = "<group>"; };
+		210C80E119D801AD0090A19A /* Currency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Currency.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +96,19 @@
 			children = (
 				210C80B519D7FB360090A19A /* AppDelegate.h */,
 				210C80B619D7FB360090A19A /* AppDelegate.m */,
-				210C80B819D7FB360090A19A /* ViewController.h */,
-				210C80B919D7FB360090A19A /* ViewController.m */,
-				210C80BB19D7FB360090A19A /* Main.storyboard */,
+				210C80E019D801AD0090A19A /* Currency.h */,
+				210C80E119D801AD0090A19A /* Currency.m */,
+				210C80D719D7FEAB0090A19A /* CurrencyConverter.h */,
+				210C80D819D7FEAB0090A19A /* CurrencyConverter.m */,
 				210C80BE19D7FB360090A19A /* Images.xcassets */,
 				210C80C019D7FB360090A19A /* LaunchScreen.xib */,
+				210C80BB19D7FB360090A19A /* Main.storyboard */,
+				210C80DC19D7FF590090A19A /* MockRatesRepository.h */,
+				210C80DD19D7FF590090A19A /* MockRatesRepository.m */,
+				210C80DB19D7FF170090A19A /* RatesRepository.h */,
 				210C80B119D7FB360090A19A /* Supporting Files */,
+				210C80B819D7FB360090A19A /* ViewController.h */,
+				210C80B919D7FB360090A19A /* ViewController.m */,
 			);
 			path = "Currency Converter";
 			sourceTree = "<group>";
@@ -168,6 +188,7 @@
 				TargetAttributes = {
 					210C80AD19D7FB360090A19A = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = NB2DGKP9TX;
 					};
 					210C80C619D7FB360090A19A = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -220,6 +241,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				210C80BA19D7FB360090A19A /* ViewController.m in Sources */,
+				210C80DE19D7FF590090A19A /* MockRatesRepository.m in Sources */,
+				210C80E219D801AD0090A19A /* Currency.m in Sources */,
+				210C80D919D7FEAB0090A19A /* CurrencyConverter.m in Sources */,
 				210C80B719D7FB360090A19A /* AppDelegate.m in Sources */,
 				210C80B419D7FB360090A19A /* main.m in Sources */,
 			);
@@ -229,7 +253,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				210C80E319D801AD0090A19A /* Currency.m in Sources */,
 				210C80CE19D7FB360090A19A /* Currency_ConverterTests.m in Sources */,
+				210C80DF19D7FF590090A19A /* MockRatesRepository.m in Sources */,
+				210C80DA19D7FEAB0090A19A /* CurrencyConverter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,9 +370,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Currency Converter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -353,9 +383,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Currency Converter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
