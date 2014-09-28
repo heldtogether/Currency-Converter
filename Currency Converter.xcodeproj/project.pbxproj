@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		210C80B419D7FB360090A19A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 210C80B319D7FB360090A19A /* main.m */; };
 		210C80B719D7FB360090A19A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 210C80B619D7FB360090A19A /* AppDelegate.m */; };
-		210C80BA19D7FB360090A19A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 210C80B919D7FB360090A19A /* ViewController.m */; };
-		210C80BD19D7FB360090A19A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210C80BB19D7FB360090A19A /* Main.storyboard */; };
 		210C80BF19D7FB360090A19A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210C80BE19D7FB360090A19A /* Images.xcassets */; };
 		210C80C219D7FB360090A19A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 210C80C019D7FB360090A19A /* LaunchScreen.xib */; };
 		210C80CE19D7FB360090A19A /* Currency_ConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 210C80CD19D7FB360090A19A /* Currency_ConverterTests.m */; };
@@ -38,9 +36,6 @@
 		210C80B319D7FB360090A19A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		210C80B519D7FB360090A19A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		210C80B619D7FB360090A19A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		210C80B819D7FB360090A19A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		210C80B919D7FB360090A19A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		210C80BC19D7FB360090A19A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		210C80BE19D7FB360090A19A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		210C80C119D7FB360090A19A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		210C80C719D7FB360090A19A /* Currency ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Currency ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,13 +97,10 @@
 				210C80D819D7FEAB0090A19A /* CurrencyConverter.m */,
 				210C80BE19D7FB360090A19A /* Images.xcassets */,
 				210C80C019D7FB360090A19A /* LaunchScreen.xib */,
-				210C80BB19D7FB360090A19A /* Main.storyboard */,
 				210C80DC19D7FF590090A19A /* MockRatesRepository.h */,
 				210C80DD19D7FF590090A19A /* MockRatesRepository.m */,
 				210C80DB19D7FF170090A19A /* RatesRepository.h */,
 				210C80B119D7FB360090A19A /* Supporting Files */,
-				210C80B819D7FB360090A19A /* ViewController.h */,
-				210C80B919D7FB360090A19A /* ViewController.m */,
 			);
 			path = "Currency Converter";
 			sourceTree = "<group>";
@@ -220,7 +212,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				210C80BD19D7FB360090A19A /* Main.storyboard in Resources */,
 				210C80C219D7FB360090A19A /* LaunchScreen.xib in Resources */,
 				210C80BF19D7FB360090A19A /* Images.xcassets in Resources */,
 			);
@@ -240,7 +231,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				210C80BA19D7FB360090A19A /* ViewController.m in Sources */,
 				210C80DE19D7FF590090A19A /* MockRatesRepository.m in Sources */,
 				210C80E219D801AD0090A19A /* Currency.m in Sources */,
 				210C80D919D7FEAB0090A19A /* CurrencyConverter.m in Sources */,
@@ -271,14 +261,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		210C80BB19D7FB360090A19A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				210C80BC19D7FB360090A19A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		210C80C019D7FB360090A19A /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
