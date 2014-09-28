@@ -1,0 +1,3 @@
+language: objective-c
+xcode_project: Currency Converter.xcodeproj
+xcode_scheme: Currency Converter
